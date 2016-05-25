@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: The best website ever!
+tagline: not really
 ---
 {% include JB/setup %}
 
