@@ -12,17 +12,20 @@
     </div>
 
     {% unless page.categories == empty %}
-    Categories
+    <h3>Categories</h3>
       <ul class="tag_box inline">
-        <li><i class="icon-folder-open"></i></li>
+       <!-- <li><i class="icon-folder-open"></i></li>-->
+       Categories
         {% assign categories_list = page.categories %}
         {% include JB/categories_list %}
       </ul>
     {% endunless %}
 
     {% unless page.tags == empty %}
+     <h3>Tags</h3>
       <ul class="tag_box inline">
         <!--<li><i class="icon-tags">Tags</i></li>-->
+       
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
       </ul>
