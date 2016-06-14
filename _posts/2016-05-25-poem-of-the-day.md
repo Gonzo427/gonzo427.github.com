@@ -1,40 +1,13 @@
 ---
 layout: post
-title: "Poem of the Day"
+title: "Quote of the Day"
 description: ""
-category: poems
-tags: [poems, css, class names]
+category: quotes
+tags: [quotes, css, class names]
 ---
 {% include JB/setup %}
-<h2>Here's a poem from <a href="http://stanford.edu/~mkagen/codepoetryslam/">Stanford University's Code Poetry Slam</a></h2>
-I haven't yet attempted code-poetry but perhaps I should start. Here is one of the winners from a past slam: 
-
-<h3>Capsized</h3>
-<h4> submitted by Zak Kain, Surrogate: Christina Hall</h4>
-
-<code>.ocean {
-    color: cornflowerblue;
-    pitch: high;
-    overflow: visible;
-}
-</code>
-
-<code>
-.boat {
-    color: firebrick;
-    transform: rotate(94deg);
-    float: none;
-}
-</code>
-
-<code>
-.rescue-team {
-    visibility: visible;
-}
-</code>
-
-<code>
-.crew {
-    widows: none;
-}
-</code>
+<blockquote id="qod-quote">
+   ... loading ...
+</blockquote>
+<script src="http://quotesondesign.com/api/3.0/api-3.0.js" 
+type="text/javascript" charset="utf-8"></script>

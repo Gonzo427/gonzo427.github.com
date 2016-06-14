@@ -11,13 +11,13 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Coding Emporium
-tagline: All coding all the time
+title : TS Design & Development
+tagline: Some projects that keep me busy
 author :
   name : T. Sevareid
   email : tiffbuck@gmail.com
   github : gonzo427
-  twitter : username
+  twitter : tifsev
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -28,7 +28,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://gonzo427.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -39,18 +39,18 @@ JB :
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #
-  # CNAME (http://yourcustomdomain.com)
+  # CNAME (http://tiffanysevareid.com)
   #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Pages (http://username.github.io)
+  # GitHub Pages (http://gonzo427.github.io)
   #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Project Pages (http://username.github.io/project-name)
+  # GitHub Project Pages (http://gonzo427.github.io/projects-list)
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #  REQUIRED! Set BASE_PATH to: http://gonzo427.github.io/projects-list
   #
   # CAUTION:
   #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH

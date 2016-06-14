@@ -1,0 +1,21 @@
+---
+# This is the Front Matter block
+---
+body{
+  
+}
+.navbar-default{
+    background: #394f85;
+    
+    .navbar-brand{
+        color: white;
+    }
+    
+   .navbar-nav>li>a{
+       color: white;
+       
+        &:hover{
+        color: #ddd;
+        }
+   }
+}
